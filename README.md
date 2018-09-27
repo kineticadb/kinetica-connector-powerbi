@@ -2,20 +2,19 @@
 
 This is the Kinetica Power BI connector for direct query using ODBC driver.
 
-# TO USE #
+## TO USE ##
 
 If you have cloned or downloaded the project, you should find a mez file under Kinetica/bin/release
 called kinetica.mez.  It is also available at the release page at https://github.com/kineticadb/kinetica-connector-powerbi/releases (use the latest release).
 
 Copy this mez file to the "C:\Users\<user>\Documents\Power BI Desktop\Custom Connectors" directory.
 
-Read up on the Quickstart section of the URL - https://github.com/Microsoft/DataConnectors. It talks about a small modification
-in the PowerBI desktop.
+You may also have to enable the Custom data connectors preview feature in Power BI Desktop (under File | Options and settings | Custom data connectors), if not already done.
 
 That is it. Now if you restart Power BI desktop and go to 'Get Data' list, Kinetica datasource should be a choice.
 
 
-# TO BUILD AND USE #
+## TO BUILD AND USE ##
 
 Most of the work to build this connector is based on these fine Microsoft documents -
 https://github.com/Microsoft/DataConnectors
